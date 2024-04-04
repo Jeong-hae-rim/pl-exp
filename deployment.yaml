@@ -16,7 +16,7 @@ spec:
         app: simple-echo
     spec:
       containers:
-      - name: simple-echo
-        image: <Your image registry here>
-        ports:
-        - containerPort: 80
+        - name: simple-echo
+          image: nginx:latest
+          ports:
+            - containerPort: 80
