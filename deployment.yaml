@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: simple-echo
-          image: nginx:latest
+          image: jeonghaerim/pl-exp
           ports:
             - containerPort: 80
